@@ -1,0 +1,26 @@
+main div h1 {
+  font-family: 'Rubik Mono One', sans-serif;
+  text-shadow: 3px 3px grey; }
+main div p {
+  font-family: 'Cutive Mono', monospace; }
+
+body {
+  margin: 0px;
+  background-color: #28292b; }
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh; }
+  main div {
+    text-align: center;
+    background-color: beige;
+    padding: 20px;
+    border: solid lightgrey 2px;
+    border-radius: 20px;
+    width: 50%;
+    box-shadow: 3px 3px black; }
+
+/*# sourceMappingURL=style.css.map */
