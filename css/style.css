@@ -9,18 +9,19 @@ body {
   background-color: #28292b; }
 
 main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh; }
-  main div {
-    text-align: center;
-    background-color: beige;
-    padding: 20px;
-    border: solid lightgrey 2px;
-    border-radius: 20px;
-    width: 50%;
-    box-shadow: 3px 3px black; }
+  margin: 100px; }
+
+.clear-up1 {
+  background-color: beige;
+  padding: 20px;
+  border: 3px solid grey;
+  border-radius: 15px;
+  margin-bottom: 15px; }
+  .clear-up1 h1, .clear-up1 h2 {
+    font-family: "Rubik Mono One", sans-serif; }
+  .clear-up1 p {
+    font-family: "Cutive Mono", monospace;
+    margin: 0px 40px 0px 40px;
+    text-align: justify; }
 
 /*# sourceMappingURL=style.css.map */
