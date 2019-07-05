@@ -1,6 +1,8 @@
 main div h1 {
-  font-family: 'Rubik Mono One', sans-serif;
+  font-family: "Rubik Mono One", sans-serif;
   text-shadow: 3px 3px grey; }
+main div h2 {
+  font-family: "Rubik Mono One", sans-serif; }
 main div p {
   font-family: 'Cutive Mono', monospace; }
 
@@ -11,15 +13,15 @@ body {
 main {
   margin: 100px; }
 
-.clear-up1 {
+.info-window {
   background-color: beige;
   padding: 20px;
   border: 3px solid grey;
   border-radius: 15px;
   margin-bottom: 15px; }
-  .clear-up1 h1, .clear-up1 h2 {
+  .info-window h1, .info-window h2 {
     font-family: "Rubik Mono One", sans-serif; }
-  .clear-up1 p {
+  .info-window p {
     font-family: "Cutive Mono", monospace;
     margin: 0px 40px 0px 40px;
     text-align: justify; }
