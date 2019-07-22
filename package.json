@@ -1,0 +1,9 @@
+{
+  "name": "ess",
+  "version": "1.0.0",
+  "description": "Private service calculator for OSRS",
+  "scripts": {
+    "start": "serve",
+  },
+  "author": "Joseph A. Gillette"
+}
