@@ -2,4 +2,4 @@
 /scss
 sales.js
 *.gitignore
-*.map
+/css/style.css.map
