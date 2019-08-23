@@ -1,17 +1,16 @@
-main div h1 {
-  font-family: "Rubik Mono One", sans-serif;
-  text-shadow: 3px 3px grey; }
-main div h2 {
-  font-family: "Rubik Mono One", sans-serif; }
-main div p {
-  font-family: 'Cutive Mono', monospace; }
+main {
+  margin: 100px; }
+  main div h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    text-shadow: 3px 3px grey; }
+  main div h2 {
+    font-family: 'Rubik Mono One', sans-serif; }
+  main div p {
+    font-family: 'Cutive Mono', monospace; }
 
 body {
   margin: 0px;
   background-color: #28292b; }
-
-main {
-  margin: 100px; }
 
 .info-window {
   background-color: beige;
@@ -19,10 +18,8 @@ main {
   border: 3px solid grey;
   border-radius: 15px;
   margin-bottom: 15px; }
-  .info-window h1, .info-window h2 {
-    font-family: "Rubik Mono One", sans-serif; }
-  .info-window p {
-    font-family: "Cutive Mono", monospace;
+  .info-window h1 {
+    font-family: 'Rubik Mono One', sans-serif;
     margin: 0px 40px 0px 40px;
     text-align: justify; }
 
