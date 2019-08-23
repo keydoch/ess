@@ -1,25 +1,52 @@
+.hd-ft-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #131313; }
+  .hd-ft-center div h1 {
+    color: white; }
+  .hd-ft-center div p {
+    color: white; }
+
+/*
+#sticky-head {
+  position: fixed;
+  top: 0px;
+  background-color: $primary-clr;
+  width: 100vw;
+  z-index: -1;
+}
+*/
 main {
   margin: 100px; }
   main div .header-fonts {
-    font-family: 'Lexend Deca', sans-serif; }
-  main div h1 {
-    text-shadow: 3px 3px grey; }
+    font-family: "Lexend Deca", sans-serif;
+    text-align: center; }
+  main div .alignment-fixer {
+    margin-left: auto;
+    margin-right: auto; }
   main div p {
-    font-family: 'Lexend Deca', sans-serif; }
+    font-family: "Lexend Deca", sans-serif;
+    width: 85%;
+    text-align: justify; }
 
 body {
   margin: 0px;
   background-color: #28292b; }
 
 .info-window {
-  background-color: beige;
+  background-color: #131313;
   padding: 20px;
-  border: 3px solid grey;
-  border-radius: 15px;
-  margin-bottom: 15px; }
+  border: 3px solid black;
+  margin-bottom: 15px;
+  color: white; }
   .info-window h1 {
     font-family: 'Rubik Mono One', sans-serif;
     margin: 0px 40px 0px 40px;
     text-align: justify; }
+
+footer {
+  height: 80px; }
 
 /*# sourceMappingURL=style.css.map */
