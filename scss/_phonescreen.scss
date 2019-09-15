@@ -1,0 +1,38 @@
+@media only screen and (max-width: 600px) {
+  header {
+    div {
+      h1 {
+        font-size: 40px;
+      }
+      p {
+        font-size: 20px;
+      }
+      #mobile-instruction {
+        opacity: 1;
+        height: auto;
+        width: auto;
+        position: relative;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+  #calculator {
+    .calculator-elements {
+      padding: 5px;
+    }
+  }
+  main {
+    margin: 15px;
+    div {
+      h2 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 20px;
+        text-align: left;
+      }
+    }
+  }
+}
