@@ -3,6 +3,11 @@ $primary-clr: rgb(19, 19, 19);
 
 
 
+/* Removes blue focus box */
+*:focus {
+  outline: 0;
+}
+
 .hd-ft-center {
   display: flex;
   justify-content: center;
