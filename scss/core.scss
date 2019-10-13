@@ -2,6 +2,10 @@ $hdng-ft: 'Lexend Deca', sans-serif;
 $primary-clr: rgb(19, 19, 19);
 
 
+/* Prevents blue focus boxing. */
+*:focus {
+  outline: none;
+}
 
 .hd-ft-center {
   display: flex;

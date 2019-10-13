@@ -1,3 +1,4 @@
 *.scss
 /scss
 /scripts/service-calculator-dev.js
+gitignore.txt
