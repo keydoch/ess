@@ -1,1 +1,40 @@
-function calculate(){var e=document.getElementById("ipt1").value,t=document.getElementById("ipt2").value,r=perItemCharge(t),n=findCharge(e,t),o=myTurnout(e,t);alert("Amount of Items : "+e+"\n\rPrice per raw item: "+t+"gp\n\rPrice per finished item: "+r+"gp\n\rHow much to charge: "+n+"gp\n\rLabor cost: "+o+"gp")}function perItemCharge(e){let t=e,r=void 0,n=void 0;return t-=r=.1*t,t*=1,t+=n=.25*t,t=Math.trunc(t)}function findCharge(e,t){let r=e,n=void 0,o=void 0;return r-=n=.1*r,r*=t,r+=o=.25*r,r=Math.trunc(r)}function myTurnout(e,t){let r=e,n=void 0,o=void 0;return r-=n=.1*r,r=o=.25*(r*=t),r=Math.trunc(r)}console.log("Type help() for available options.");
+function findCharge(price, amount) {
+  let fprice = price;
+  let discount = undefined;
+  let fee = undefined;
+  discount = fprice * .10;
+  fprice -= discount;
+  fprice *= amount;
+  fee = fprice * .25;
+  fprice += fee;
+  fprice = Math.round(fprice);
+  return (fprice);
+}
+
+function myTurnout(price, amount) {
+  let fprice = price;
+  let discount = undefined;
+  let fee = undefined;
+  discount = fprice * .10;
+  fprice -= discount;
+  fprice *= amount;
+  fee = fprice * .25;
+  fprice = fee;
+  fprice = Math.round(fprice);
+  return (fprice);
+}
+
+function calculate() {
+  var itemAmount = document.getElementById("ipt1").value;
+  var itemCost = document.getElementById("ipt2").value;
+  var totalCost = 0;
+  var serviceFee = 0;
+  var calculatorResult = document.getElementById("calculatorResult");
+  
+
+  totalCost = findCharge(itemAmount, itemCost);
+  serviceFee = myTurnout(itemAmount, itemCost);
+
+  
+  calculatorResult.innerHTML = "<p>Your service fee is <u>" + serviceFee + "</u> gp.</p><br><p>You will charge <u>" + totalCost +"</u> gp.</p>";
+}

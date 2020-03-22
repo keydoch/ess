@@ -2,11 +2,11 @@
 <html lang="en">
 	<head>
 		<link href="./img/coins.png" rel="icon">
-		<script src="./scripts/service-calculator.js"></script>
-		<link href="./css/style.css" rel="stylesheet">
+		<script src="./scripts/service-calculator.min.js"></script>
+		<link href="./css/style.min.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lexend+Deca|Livvic&display=swap" rel="stylesheet">
 		<meta name=viewport content="width=device-width, initial-scale=1">
-		<meta charset="utf-8">
+		<meta charset="UTF-8">
 		<title>ESS</title>
 	</head>
 	<body>
@@ -15,17 +15,21 @@
 			<div id="unsticky-head">
 				<h1>ESS Internal Computing Service</h1>
 				<p id="mobile-instruction">Mobile users use Developer console on your respective device.</p>
-			</div>
+			</div> <br>
 		</header>
-
+'
 		<main>
 
 			<div id="calculator" class="info-window">
+				<h2>Calculator</h2>
 				<div id="calculator-inputs">
 					<input id="ipt1" class="calculator-elements" placeholder="Amount of Items">
 					<input id="ipt2" class="calculator-elements" placeholder="Price per Item">
+					<button class="calculator-elements" onclick="calculate()">Calculate</button><br><br>
 				</div>
-				<button class="calculator-elements" onclick="calculate()">Calculate</button>
+				<div id="calculatorResult">
+					<p>Your service fee is <u>?</u> gp.</p><br><p>You will charge <u>?</u> gp.</p>
+				</div>
 			</div>
 
 			<div class="info-window">
