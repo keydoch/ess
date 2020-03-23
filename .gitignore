@@ -1,4 +1,4 @@
 *.scss
 /scss
 /scripts/service-calculator-dev.js
-.map
+*.map
